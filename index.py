@@ -64,8 +64,8 @@ def analyze_invoice(file_bytes):
 # Streamlit UI
 
 with st.sidebar:
-    selected = option_menu("Main Menu", ["HOME","Invoice OCR", 'File Rename', "Pipeline Flow", "settings"],
-     icons=['house','bi-file-earmark-break', 'bi-file-earmark', 'bi-activity', 'settings'], menu_icon="cast", default_index=0)
+    selected = option_menu("Main Menu", ["HOME","Invoice OCR", 'File Rename', "Pipeline Flow"],
+     icons=['house','bi-file-earmark-break', 'bi-file-earmark', 'bi-activity'], menu_icon="cast", default_index=0)
     print(selected)
 
 if selected == "HOME":
