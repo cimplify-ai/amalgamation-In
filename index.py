@@ -70,7 +70,6 @@ if selected == "HOME":
     st.info('for Amalgamations')
 
     image = Image.open("./img/Homepage.png")
-    st.write(st.secrets["secret_key"])
 # Display image
     st.image(image, caption="Sample Invoice")
 elif selected == "Invoice OCR":
