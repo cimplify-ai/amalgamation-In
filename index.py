@@ -97,10 +97,10 @@ elif selected == "Invoice OCR":
         else:
             st.error("❌ No key-value pairs found in the document.")
 
-        if file_bytes:
-            binary_data = file_bytes
-            pdf_viewer(input=binary_data,
-                    width="100%", height=100)
+        # if file_bytes:
+        #     binary_data = file_bytes
+        #     pdf_viewer(input=binary_data,
+        #             width="100%", height=100)
 
 elif selected == "File Rename":
     st.title("📂 Upload and Rename File")
