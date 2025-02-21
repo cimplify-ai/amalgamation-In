@@ -127,7 +127,7 @@ elif selected == "File Rename":
 
 elif selected == "Pipeline Flow":
     st.title("Pipeline for Invoice Data Extraction")
-    image = Image.open("./img/Homepage.png")
+    image = Image.open("./img/Pipeline v2.png")
     st.image(image, caption="PipeLine diagram")
 # elif selected == "settings":
 #     st.title("Access Key and Secret Key Input")
