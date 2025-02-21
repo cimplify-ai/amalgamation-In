@@ -31,8 +31,8 @@ container_pdf, container_chat = st.columns([50, 50])
 # Initialize AWS Textract Client
 # Title of the app
 session = boto3.Session(
-    aws_access_key_id=st.secrets["access_key"],
-    aws_secret_access_key=st.secrets["secret_key"],
+    aws_access_key_id=st.secrets["secrets"]["access_key"],
+    aws_secret_access_key=st.secrets["secrets"]["secret_key"],
     region_name='us-east-1'
 )
 textract = session.client("textract", region_name="us-east-1")  # Change region if needed
