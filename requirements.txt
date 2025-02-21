@@ -1,0 +1,7 @@
+streamlit
+boto3
+streamlit-navigation-bar
+streamlit_pdf_viewer
+streamlit_option_menu
+pandas
+pillow
