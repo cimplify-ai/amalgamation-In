@@ -91,8 +91,8 @@ elif selected == "Invoice OCR":
         with st.spinner("Extracting Invoice Data..."):
             df, dv, vendor = analyze_invoice(file_bytes)
         if not df.empty:
-            st.dataframe(dv)
             st.success("✅ Invoice Data Extracted Successfully!")
+            st.dataframe(dv)
             st.dataframe(df)
         else:
             st.error("❌ No key-value pairs found in the document.")
