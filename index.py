@@ -72,7 +72,7 @@ if selected == "HOME":
     # st.image(image="C:\Users\cim0011\Downloads\Invoice Data Extractor.png")
     st.image("./img/Logo.svg")
     st.title("Invoice Data Extractor Demo")
-    st.info('for Amalgamations')
+    # st.info('for Amalgamations')
 
     image = Image.open("./img/Homepage.png")
 # Display image
@@ -143,4 +143,5 @@ elif selected == "Pipeline Flow":
 #     if st.button("Clear Cache"):
 #         st.secrets["access_key"] = ""
 #         st.secrets["secret_key"] = ""
+
 #         st.success("Successfully your cache are cleared")
